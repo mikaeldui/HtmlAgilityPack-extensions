@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;netstandard2.1;net5.0;net6.0</TargetFrameworks>
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>HtmlAgilityPack</RootNamespace>
+    <PackageId>MikaelDui.HtmlAgilityPack.Extensions</PackageId>
+    <Authors>Mikael Dúi Bolinder</Authors>
+    <Product>MikaelDui.HtmlAgilityPack.Extensions</Product>
+    <Description>Extensions for HtmlAgilityPack</Description>
+    <PackageProjectUrl>https://github.com/mikaeldui/HtmlAgilityPack-extensions</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>HtmlAgilityPack.Extensions.png</PackageIcon>
+    <RepositoryUrl>https://github.com/mikaeldui/HtmlAgilityPack-extensions</RepositoryUrl>
+    <PackageTags></PackageTags>
+    <PackageLicenseExpression>Unlicense</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\HtmlAgilityPack.Extensions.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MikaelDui.Extensions" Version="*" />
+  </ItemGroup>
+
+</Project>

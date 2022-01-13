@@ -49,4 +49,4 @@ This NuGet package is really awesome!
 You can install it using the following **.NET CLI** command:
 
     dotnet add package MikaelDui.HtmlAgilityPack.Extensions --version *
-
+-->

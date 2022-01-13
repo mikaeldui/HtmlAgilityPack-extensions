@@ -1,4 +1,4 @@
-namespace {{Namespace}}
+namespace HtmlAgilityPack
 {
     public class Class1
     {
