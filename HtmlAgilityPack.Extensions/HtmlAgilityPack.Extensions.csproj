@@ -9,27 +9,28 @@
     <PackageId>MikaelDui.HtmlAgilityPack.Extensions</PackageId>
     <Authors>Mikael Dúi Bolinder</Authors>
     <Product>MikaelDui.HtmlAgilityPack.Extensions</Product>
-    <Description>Extensions for HtmlAgilityPack</Description>
+    <Description>Extensions for HtmlAgilityPack.</Description>
     <PackageProjectUrl>https://github.com/mikaeldui/HtmlAgilityPack-extensions</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageIcon>HtmlAgilityPack.Extensions.png</PackageIcon>
     <RepositoryUrl>https://github.com/mikaeldui/HtmlAgilityPack-extensions</RepositoryUrl>
-    <PackageTags></PackageTags>
+    <PackageTags>HtmlAgilityPack; Extensions</PackageTags>
     <PackageLicenseExpression>Unlicense</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\HtmlAgilityPack.Extensions.png">
+    <None Include="..\HtmlAgilityPack.Extensions.png" Visible="False">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
-    <None Include="..\README.md">
+    <None Include="..\README.md" Visible="False">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="*" />
     <PackageReference Include="MikaelDui.Extensions" Version="*" />
   </ItemGroup>
 
