@@ -16,6 +16,7 @@
     <RepositoryUrl>https://github.com/mikaeldui/HtmlAgilityPack-extensions</RepositoryUrl>
     <PackageTags>HtmlAgilityPack; Extensions</PackageTags>
     <PackageLicenseExpression>Unlicense</PackageLicenseExpression>
+    <AssemblyName>MikaelDui.HtmlAgilityPack.Extensions</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
